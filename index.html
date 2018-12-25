@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laoder Studio</title>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark fixed-top bg-alpha" style="padding:25px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+            <img src="/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="Radio-logo">
+            Laoder Studio
+            </a>
+            <audio controls="" autoplay="autoplay" style="width:250px;"><source src="http://media.login.in.th:8100/;stream.mp3" type="audio/mp3">Your browser does not support the audio element.</audio>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <!-- Section Carousel -->
+    <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-img" style="background-image: url('https://images.unsplash.com/photo-1523987659364-8ad26ea657ef?ixlib=rb-0.3.5&s=40e75ee9dca1a8ccbd971c8750e965de&auto=format&fit=crop&w=1280&q=80') ;" data-ride="carousel">
+                        <div class="carousel-caption">
+                            <h1 class="display-4 font-weight-bold">Laoder Studio</h1>
+                            <p class="lead">ໄອ​ທີ​ເລດີ​ໂອສະ​ຖາ​ນີວິ​ທະ​ຍ​ຸອອນ​ລາຍຕະຫຼອດ 24ຊົ່ວ​ໂມງ</p>
+                        </div>
+                        <div class="backscreen"></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img" style="background-image: url('https://images.unsplash.com/photo-1529392960549-df4af50eac23?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cbb5faad99367a05fc9ce16f668f8865&auto=format&fit=crop&w=1280&q=80');" data-ride="carousel">
+                        <div class="carousel-caption">
+                            <h1 class="display-4 font-weight-bold">Laoder Studio</h1>
+                            <p class="lead">ໄອ​ທີ​ເລດີ​ໂອສະ​ຖາ​ນີວິ​ທະ​ຍ​ຸອອນ​ລາຍຕະຫຼອດ 24ຊົ່ວ​ໂມງ</p>
+                        </div>
+                        <div class="backscreen"></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img" style="background-image: url('https://images.unsplash.com/photo-1510130564579-d2caf45b72f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=718d6f5d94a87ec161bfee557a6a6040&auto=format&fit=crop&w=1280&q=80');" data-ride="carousel">
+                        <div class="carousel-caption">
+                            <h1 class="display-4 font-weight-bold">Laoder Studio</h1>
+                            <p class="lead">ໄອ​ທີ ເລ​ດີ​ໂອ ສະ​ຖາ​ນີວິ​ທະ​ຍ​ຸ ອອນ​ລາຍ 24 ຊົ່ວ​ໂມງ</p>
+                        </div>
+                        <div class="backscreen"></div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </section>
+    
+        <!-- Section Archievement-->
+
+
+    <!-- Script -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+    </script>
+</body>
+</html>
